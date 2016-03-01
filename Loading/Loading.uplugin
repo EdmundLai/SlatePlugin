@@ -1,0 +1,20 @@
+{
+    "FileVersion" : 3,
+ 
+    "FriendlyName" : "Bob's Plugin",
+    "Version" : 1,
+    "VersionName": "1.0",
+    "EngineVersion" : 1579795,
+    "Description" : "Here I describe the capabilities of the plugin.",
+    "Category" : "Bobs.Stand Alone",
+    "CreatedBy" : "Bob Chatman",
+    "CreatedByURL" : "http://gneu.org",
+ 
+    "Modules" :
+    [
+        {
+            "Name" : "Loading",
+            "Type" : "Developer"
+        } 
+    ]
+}
