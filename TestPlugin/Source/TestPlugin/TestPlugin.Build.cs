@@ -78,7 +78,7 @@ public class TestPlugin : ModuleRules
             System.Console.WriteLine("----- isLibrarySupported true");
             string PlatformSubPath = (Target.Platform == UnrealTargetPlatform.Win64) ? "Win64" : "Win32";
             string LibrariesPath = Path.Combine(TestPluginPath, "Lib");
-            PublicAdditionalLibraries.Add(Path.Combine(LibrariesPath, PlatformSubPath, "TestPlugin.lib"));
+            PublicAdditionalLibraries.Add(Path.Combine(LibrariesPath, PlatformSubPath, "TestLib.lib"));
         }
 
         if (isLibrarySupported)
